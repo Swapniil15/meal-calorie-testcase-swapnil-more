@@ -19,7 +19,16 @@ And install Playwright if you haven't already:
 npm install --save-dev @playwright/test
 npx playwright install
 ```
+### Create .env File
+Create a .env file in the root directory:
 
+
+```bash
+
+BASE_URL=http://localhost:8000
+PASSWORD=secure123
+
+```
 ---
 
 ### 🧾 Sample Test File
