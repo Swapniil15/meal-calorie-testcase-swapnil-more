@@ -69,8 +69,8 @@ npx playwright test tests/api.spec.js --headed
 | ✅ Handle invalid dish name             | POST   | `/get-calories`    |
 | ✅ Reject zero or negative servings     | POST   | `/get-calories`    |
 | ✅ Submit or update feedback            | POST   | `/submit-feedback` |
-| ❌ Reject calorie fetch without token   | POST   | `/get-calories`    |
-| ❌ Reject feedback submit without token | POST   | `/submit-feedback` |
+| ✅ Reject calorie fetch without token   | POST   | `/get-calories`    |
+| ✅ Reject feedback submit without token | POST   | `/submit-feedback` |
 
 ---
 
